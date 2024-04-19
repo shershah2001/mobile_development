@@ -21,7 +21,9 @@ const userData = [
     description:
       'Maintaining good vision goes beyond just eye exercises, your diet plays a pivotal role too. A balanced diet can significantly improve your eyesight and ...',
     Fulldescription:
-      "Maintaining good vision goes beyond just eye exercises, your diet plays a pivotal role too. A balanced diet can significantly improve your eyesight. Our eye care app makes it easy to achieve this by providing personalized diet plans tailored to your vision needs. -n-nThe importance of a proper diet for vision cannot be overstated. Nutrients like vitamins A, C, E, and minerals like zinc and omega-3 fatty acids are essential for eye health. They help protect against age-related vision issues like macular degeneration and cataracts. -n-nOur app analyses your dietary preferences and health goals to create a diet plan rich in eye-boosting nutrients. It's like having a nutritionist in your pocket, guiding you toward better eye health.-n-nDon't underestimate the impact of a well-planned diet on your vision. Try now.",
+      `Maintaining good vision goes beyond just eye exercises, your diet plays a pivotal role too. A balanced diet can significantly improve your eyesight. Our eye care app makes it easy to achieve this by providing  personalized diet plans tailored to your vision needs.
+      
+      -n-nThe importance of a proper diet for vision cannot be overstated. Nutrients like vitamins A, C, E, and minerals like zinc and omega-3 fatty acids are essential for eye health. They help protect against age-related vision issues like macular degeneration and cataracts. -n-nOur app analyses your dietary preferences and health goals to create a diet plan rich in eye-boosting nutrients. It's like having a nutritionist in your pocket, guiding you toward better eye health.-n-nDon't underestimate the impact of a well-planned diet on your vision. Try now.`,
     bname: 'Try now',
     view: 'view more',
     visibility: '1',
@@ -329,4 +331,39 @@ const userData = [
     no: '',
   },
 ];
+
+const HomeData = [
+  {
+    id: 1,
+    title: 'Full Eye Exercise',
+    imageurl: require('../asset/image/eyes_covered.webp'),
+  },
+  {
+    id: 2,
+    title: '2 Min Quick Exercise',
+    imageurl: require('../asset/image/yogaWoman.jpg'),
+  },
+ 
+  {
+    id: 3,
+    title:'Premium Exercise',
+    text1: 'Specially For You',
+    imageurl: require('../asset/image/premium.jpg'),
+  },
+  {
+    id: 4,
+    title1: '20-20-20',
+    text2:'Rule',
+    text3:'REMINDS WHEN TO TAKE A BREAK',
+    imageurl: require('../asset/image/typeComputer.jpg'),
+  },
+  {
+    id: 5,
+    title1: 'Test your',
+    text2:'Eyes',
+    text3:'VISION MATTERS, TRUST US FOR YOUR NEXT EYE TEST',
+    imageurl: require('../asset/image/eye.jpg'),
+  },
+];
+export { HomeData };
 export default userData;
